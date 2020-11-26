@@ -1,38 +1,81 @@
-.App {
+.app {
+  background-image: url("./banner1.jpg");
+}
+.app-header {
+  padding: 10px;
+  display: flex;
+  background: transparent;
+}
+.header {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+}
+.login-btn {
+  background-color: black;
+  padding: 10px;
+  width: auto;
+  position: absolute;
+  right: 5px;
+}
+
+.inner-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner-box {
+  background-color: black;
+  display: inline-block;
+  opacity: 0;
+  padding: 3em;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inner-box-heading {
+  display: inline-block;
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  border-color: #fff;
+  margin: 0 0 2em 0;
+  padding: 3px 0 3px 0;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.campus-recruitment {
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  font-size: 2.5em;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  margin: 0;
+  padding-left: 0.05em;
+  position: relative;
+  text-transform: uppercase;
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content {
+  letter-spacing: 0.1em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.main-article {
+  padding-top: 5em;
+}
+
+.special-container {
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  margin-bottom: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.react-icons {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
 }
